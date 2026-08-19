@@ -15,4 +15,4 @@ azure-landing-zone
 │
 └── environments
     ├── nonprod
-    └── prod
+    └── prod.

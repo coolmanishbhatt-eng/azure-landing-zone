@@ -7,12 +7,12 @@ terraform {
       version = "~> 4.0"
     }
   }
-    backend "azurerm" {
+  backend "azurerm" {
     resource_group_name  = "rg-alz-tfstate"
     storage_account_name = "sttfstatealz2026manish"
     container_name       = "tfstate"
     key                  = "nonprod.tfstate"
-    }
+  }
 }
 
 provider "azurerm" {
